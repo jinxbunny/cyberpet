@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    text-align: center;
+
+}
+input{
+    width: 150px;
+    padding: 4px;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+#overAll{
+    width: 640px;
+    margin: 0 auto;
+}
+
+#gridC{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px 250px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "title"
+    "petWindow"
+    "petName"
+    ;
+}
+
+#title{
+    height: 100px;
+    padding-top: 20px;
+    grid-area: title;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+#submitButton {
+    background-color: rgb(31, 33, 33);
+    width: 100px;
+    padding: 10px;
+    border-radius: 14px;
+    font-size: larger;
+    color: white;    
+}
+
+
+
+#bars{
+    position: absolute; top:12px;
+    align-items: center;
+}
+
+#petImg{
+    position: absolute; bottom: 8px;
+    visibility: hidden;
+}
+#petName{
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+    grid-area: petName;
+}
+

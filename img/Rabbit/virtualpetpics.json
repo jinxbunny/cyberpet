@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"bunnyidle instance 10000":
+{
+	"frame": {"x":0,"y":0,"w":255,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":140},
+	"sourceSize": {"w":255,"h":140}
+},
+"bunnyidle instance 10001":
+{
+	"frame": {"x":255,"y":0,"w":255,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":140},
+	"sourceSize": {"w":255,"h":140}
+},
+"bunnyidle instance 10002":
+{
+	"frame": {"x":0,"y":140,"w":255,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":140},
+	"sourceSize": {"w":255,"h":140}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.0.3.25487",
+	"image": "virtualpetpics.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}
