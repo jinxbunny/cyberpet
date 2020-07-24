@@ -103,7 +103,7 @@ const petChose = () => {
         pickHamster.src = `img/selectPet2s.png`;
         food = `Sunflower Seeds`
     } else if (type == `Rabbit`) {
-        pickRabbit.src = `img/selectPet1s.png`;
+        pickRabbit.src = `img/selectPet1S.png`;
         pickHamster.src = `img/selectPet2.png`;
         food = `Carrots`
     }
