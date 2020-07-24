@@ -8,7 +8,6 @@ const chooseName = document.getElementById(`chooseName`);
 const newNameInput = document.getElementById(`newNameInput`);
 const refreshName = document.getElementById(`refreshName`);
 
-
 //Virtual Pet Status
 const petArea = document.getElementById(`petArea`);
 const petInfo = document.getElementById(`petInfo`);
@@ -100,12 +99,12 @@ const petChose = () => {
     chooseName.style.visibility = `visible`;
     topText.textContent = `${type}`;
     if (type == `Hamster`) {
-        pickRabbit.src = `img/select_Pet1.png`;
-        pickHamster.src = `img/select_Pet2s.png`;
+        pickRabbit.src = `img/selectPet1.png`;
+        pickHamster.src = `img/selectPet2s.png`;
         food = `Sunflower Seeds`
     } else if (type == `Rabbit`) {
-        pickRabbit.src = `img/select_Pet1s.png`;
-        pickHamster.src = `img/select_Pet2.png`;
+        pickRabbit.src = `img/selectPet1s.png`;
+        pickHamster.src = `img/selectPet2.png`;
         food = `Carrots`
     }
 };
